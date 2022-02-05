@@ -219,6 +219,9 @@ img {
   box-shadow: 0 0 16px hsla(var(--first-hue), var(--sat), var(--lig), 0.4);
 }
 /* Change background header */
+.scroll-header {
+  box-shadow: 0 4px 4px hsla(0, 0%, 4%, 0.3);
+}
 
 /*=============== HOME ===============*/
 .home__container {
@@ -266,7 +269,7 @@ img {
     hsla(var(--first-hue), var(--sat), var(--lig), 1),
     hsla(var(--first-hue), var(--sat), var(--lig), 0.2)
   );
-  border-radius: 10rem 10rem 1rem 1rem;
+  border-radius: 0.25rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -378,7 +381,7 @@ img {
 
 .about__box {
   background-color: var(--container-color);
-  border-radius: 0.1rem;
+  border-radius: 0.25rem;
   padding: 0.75rem 0.5rem;
 }
 
@@ -400,7 +403,52 @@ img {
   margin-bottom: 2rem;
 }
 /*=============== SKILLS ===============*/
+.skills__container {
+  row-gap: 2rem;
+  padding-top: 1rem;
+}
 
+.skills__content {
+  background-color: var(--container-color);
+  padding: 1.5rem;
+  border-radius: 0.25rem;
+}
+
+.skills__title {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  color: var(--first-color);
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.skills__box {
+  display: flex;
+  justify-content: center;
+  column-gap: 2.5rem;
+}
+
+.skills__group {
+  display: grid;
+  align-content: flex-start;
+  row-gap: 1rem;
+}
+
+.skills__data {
+  display: flex;
+  column-gap: 0.5rem;
+}
+
+.skills .bxs-check-circle {
+  font-size: 1rem;
+  color: var(--first-color);
+}
+
+.skills__name {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  line-height: 18px;
+}
 /*=============== SERVICES ===============*/
 
 /* Services modal */
