@@ -1095,6 +1095,7 @@ body.light-theme {
 
   .contact__container {
     column-gap: 6rem;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .footer__social-link {
