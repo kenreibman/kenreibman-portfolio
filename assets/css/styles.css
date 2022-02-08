@@ -1099,7 +1099,7 @@ body.light-theme {
   }
 
   .footer__container {
-    padding: 8rem;
+    padding-top: 8rem;
   }
   .footer__social-link {
     font-size: 1.25rem;
