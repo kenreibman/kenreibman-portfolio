@@ -1098,6 +1098,9 @@ body.light-theme {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .footer__container {
+    padding: 8rem;
+  }
   .footer__social-link {
     font-size: 1.25rem;
     padding: 0.4rem;
