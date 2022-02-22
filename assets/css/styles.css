@@ -1,5 +1,5 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 /*=============== VARIABLES CSS ===============*/
 :root {
@@ -28,7 +28,7 @@
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
-  --body-font: "Poppins", sans-serif; /* Main Font */
+  --body-font: 'Poppins', sans-serif; /* Main Font */
   --biggest-font-size: 1.75rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
@@ -312,6 +312,41 @@ body.light-theme {
   margin-bottom: 0.25rem;
 }
 
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
 .home__education {
   color: var(--text-color);
   margin-bottom: 2.5rem;
@@ -378,7 +413,7 @@ body.light-theme {
 }
 
 .home__social::after {
-  content: "";
+  content: '';
   width: 32px;
   height: 2px;
   background-color: var(--first-color);
