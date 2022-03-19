@@ -357,8 +357,7 @@ body.light-theme {
 }
 
 .home__img {
-  /* 3D MODEL */
-  /* width: 160px; */
+  width: 160px;
 }
 
 .home__handle {
@@ -931,7 +930,7 @@ body.light-theme {
   }
 
   .home__img {
-    /* width: 130px; */
+    width: 130px;
   }
 
   .about__info {
@@ -1054,7 +1053,7 @@ body.light-theme {
   }
 
   .home__img {
-    /* width: 220px; */
+    width: 220px;
   }
 
   .home__social-link {
