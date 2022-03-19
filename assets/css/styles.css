@@ -357,7 +357,8 @@ body.light-theme {
 }
 
 .home__img {
-  width: 160px;
+  /* 3D MODEL */
+  /* width: 160px; */
 }
 
 .home__handle {
@@ -369,9 +370,9 @@ body.light-theme {
     hsla(var(--first-hue), var(--sat), var(--lig), 1),
     hsla(var(--first-hue), var(--sat), var(--lig), 0.2)
   );
-  border-radius: 0.25rem;
+  border-radius: 12rem 8rem 12rem 8rem;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   overflow: hidden;
 }
@@ -930,7 +931,7 @@ body.light-theme {
   }
 
   .home__img {
-    width: 130px;
+    /* width: 130px; */
   }
 
   .about__info {
@@ -1053,7 +1054,7 @@ body.light-theme {
   }
 
   .home__img {
-    width: 220px;
+    /* width: 220px; */
   }
 
   .home__social-link {
