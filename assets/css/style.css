@@ -1,18 +1,9 @@
-@font-face {
-  font-family: 'Paperpillar';
-  src: url('fonts/Paperpillar.eot?ab1dyx');
-  src: url('fonts/Paperpillar.eot?ab1dyx#iefix') format('embedded-opentype'),
-    url('fonts/Paperpillar.ttf?ab1dyx') format('truetype'),
-    url('fonts/Paperpillar.woff?ab1dyx') format('woff'),
-    url('fonts/Paperpillar.svg?ab1dyx#Paperpillar') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&family=Montserrat:wght@200;400;700&family=Playfair+Display:wght@400;500;700&display=swap');
 
 [class^='icon-'],
 [class*=' icon-'] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'Paperpillar' !important;
+  font-family: 'Montserrat', sans-serif !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
