@@ -10165,6 +10165,10 @@ footer {
   flex: 0 0 260px;
   border-radius: 11px;
 }
+.clients-item a {
+  display: block;
+  height: 100%;
+}
 .clients-item.agoda img {
   width: 90px;
 }
@@ -10197,7 +10201,7 @@ footer {
   border-radius: 13px;
 }
 .clients-item.grab img {
-  width: 90px;
+  object-fit: contain;
 }
 @media (min-width: 992px) {
   .clients-item.grab {
@@ -10212,7 +10216,7 @@ footer {
   display: none;
 }
 .clients-item.crisp img {
-  width: 95px;
+  object-fit: contain;
 }
 @media (min-width: 992px) {
   .clients-item.crisp {
