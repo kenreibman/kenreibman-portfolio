@@ -10170,6 +10170,7 @@ footer {
   height: 100%;
 }
 .clients-item.agoda img {
+  width: 100%;
 }
 @media (min-width: 992px) {
   .clients-item.agoda {
