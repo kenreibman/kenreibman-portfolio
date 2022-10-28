@@ -10322,7 +10322,7 @@ footer {
 }
 .work-list.calendar-works .work-image img {
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .work-list.calendar-works .work-image:before {
   width: 100%;
@@ -10348,12 +10348,12 @@ footer {
 }
 .work-list.crisp-works .work-image img {
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 @media (min-width: 992px) {
   .work-list.crisp-works .work-image img {
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
   }
 }
 .work-list.crisp-works .work-image:before {
@@ -10379,11 +10379,13 @@ footer {
   background-image: linear-gradient(225deg, #0abac2, #b2de94);
 }
 .work-list.lifecycle-works .work-image img {
+  width: 100%;
+  object-fit: contain;
 }
 @media (min-width: 992px) {
   .work-list.lifecycle-works .work-image img {
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
   }
 }
 .work-list.lifecycle-works .work-image:before {
